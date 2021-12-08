@@ -53,7 +53,7 @@ namespace Banque {
 					exit(1);
 				}
 				cout << "------------------------------------------" << endl;
-			} while (1);
+			} while (true);
 		}
 	};
 }

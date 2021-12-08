@@ -4,6 +4,7 @@
 
 #include "Client.h"
 #include <iostream>
+#include <algorithm>
 using namespace Banque;
 using namespace std;
 Banque::Client::Client(string n, string p, string a)
@@ -15,7 +16,7 @@ Banque::Client::Client(string n, string p, string a)
 
 void Banque::Client::add_Compte(Compte*A)
 {
-    bool notFound = true;
+    bool notFound = (std::find(begin(Comptes), end(Comptes), A) == end(Comptes));;
     if (notFound)Comptes.push_back(A);
 }
 
