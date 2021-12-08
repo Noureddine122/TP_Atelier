@@ -3,7 +3,7 @@
 namespace Banque {
     class CompteEpargne : virtual public Compte
     {
-        double TauxInteret;
+        double Taux_Interet;
     public:
         CompteEpargne(Client*, Devise*, double);
         void calculInteret();

@@ -3,12 +3,12 @@
 Banque::CompteEpargne::CompteEpargne(Client*C, Devise*E, double v):Compte(C,E)
 {
 	assert(v >= 0 && v <= 100);
-    TauxInteret = v;
+    Taux_Interet = v;
 }
 
 void Banque::CompteEpargne::calculInteret()
 {
-	this->add_pursontage(TauxInteret);
+	this->add_pursontage(Taux_Interet);
 }
 
 bool Banque::CompteEpargne::debiter(Devise*D)
