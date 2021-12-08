@@ -1,0 +1,18 @@
+# ninja log v5
+1	366	1638989417472077023	CMakeFiles/Atelier_TP.dir/AppBanque.cpp.o	433de07e40bffed
+946	1385	1638989369111107890	CMakeFiles/Atelier_TP.dir/Transaction.cpp.o	df4bfb33fcdcb35d
+1	422	1638988880793729895	CMakeFiles/Atelier_TP.dir/Client.cpp.o	66c7895118920f3c
+653	1203	1638989368927103986	CMakeFiles/Atelier_TP.dir/operationV.cpp.o	63f27553fa2003f8
+1	1005	1638989368727099735	CMakeFiles/Atelier_TP.dir/Devise.cpp.o	5e666aa6118658e9
+3	1028	1638989368751100245	CMakeFiles/Atelier_TP.dir/MAD.cpp.o	242a75c97af53fba
+2	1088	1638989368811101520	CMakeFiles/Atelier_TP.dir/Dollar.cpp.o	332a6b2ced7507d7
+1	1113	1638989368839102115	CMakeFiles/Atelier_TP.dir/ComptePayant.cpp.o	cd2a1c64421accd9
+1	946	1638989368671098545	CMakeFiles/Atelier_TP.dir/Source.cpp.o	74d8f16fe40d6de8
+2	67	1638989367791079833	CMakeFiles/Atelier_TP.dir/GC.cpp.o	f92bb8497d61f156
+1	904	1638988730716685700	CMakeFiles/Atelier_TP.dir/CompteCourant.cpp.o	f537a11f24e1ce0
+0	896	1638988730708685879	CMakeFiles/Atelier_TP.dir/main.cpp.o	451f54e684127ef0
+1	414	1638988794407345724	CMakeFiles/Atelier_TP.dir/CompteEpagnePayant.cpp.o	5315fbe8a3cb7f51
+67	652	1638989368375092254	CMakeFiles/Atelier_TP.dir/OperationR.cpp.o	b1eb44b0fb28d742
+1	995	1638988730808683655	CMakeFiles/Atelier_TP.dir/Compte.cpp.o	4d392cdd3c2bd6d6
+1	357	1638989732568157871	CMakeFiles/Atelier_TP.dir/CompteEpargne.cpp.o	7d70fe0f7623da39
+357	461	1638989732668158682	Atelier_TP	d61547388f161476
