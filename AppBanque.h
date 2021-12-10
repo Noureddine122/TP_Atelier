@@ -17,7 +17,11 @@ namespace Banque {
 		{
 			auto* Cl = new Client("User1", "user1", "address");
             Clients.push_back(Cl);
+            auto* Cl2 = new Client("User2", "user2", "address");
+            Clients.push_back(Cl2);
+
 			CompteEpagnePayant A(Cl, new MAD(2000), new MAD(100),5);
+            CompteEpagnePayant B(Cl2,new MAD(3000), new MAD(2000),10);
 			int choix;
 			double Val;
 			MAD* VAL;
