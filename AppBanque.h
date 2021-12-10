@@ -10,10 +10,10 @@
 namespace Banque {
 	class AppBanque
 	{
-		static vector<Client*> Clients;
+		vector<Client*> Clients;
 		int i = 0;
 	public:
-		static void Main()
+		void Main()
 		{
 			auto* Cl = new Client("User1", "user1", "address");
             Clients.push_back(Cl);
@@ -27,24 +27,25 @@ namespace Banque {
 			MAD* VAL;
 			do
 			{
-				cout << "0-exit" << endl;
-				cout << "1-retrait" << endl;
-				cout << "2-crediter" << endl;
-				cout << "3-consuler" << endl;
-				cout << "4-history" << endl;
+
+				cout << "1-Retrait" << endl;
+				cout << "2-Crédit" << endl;
+				cout << "3-consultation" << endl;
+				cout << "4-Archive" << endl;
+                cout << "0-Sortie" << endl;
 				cout << "donner votre choix:";
 				cin >> choix;
 				cout << "###################################" << endl;
 				switch (choix)
 				{
 				case 1:
-					cout << "donner la valeur en MAD:";
+					cout << "Entrer votre valeur {DH}:";
 					cin >> Val;
 					if (A.debiter(new MAD(Val)))cout << "Done!" << endl;
-					else cout << "Not Enough money" << endl;
+					else cout << "Solde insuffisant" << endl;
 					break;
 				case 2:
-					cout << "donner la valeur en Dollar:";
+					cout << "Entrer votre valeur {$}:";
 					cin >> Val;
 					A.crediter(new Dollar(Val));
 					break;
