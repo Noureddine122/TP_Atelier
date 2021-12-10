@@ -13,7 +13,7 @@ namespace Banque {
 		static vector<Client*> Clients;
 		int i = 0;
 	public:
-		static void Mymain()
+		static void Main()
 		{
 			auto* Cl = new Client("User1", "user1", "address");
             Clients.push_back(Cl);
