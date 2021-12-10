@@ -2,6 +2,6 @@
 using namespace Banque;
 int main() 
 {
-	AppBanque A;
-    A.Main();
+	AppBanque App;
+    App.Main();
 }

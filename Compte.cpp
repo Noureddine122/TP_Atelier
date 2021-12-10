@@ -79,7 +79,7 @@ void Banque::Compte::add_transaction(Devise * Amount, bool Type)
 }
 void Banque::Compte::consulter() const
 {
-    cout << "num compte=" << this->numcompte << endl<< "le solde est : ";
+    cout << "N°" << this->numcompte << endl<< "le solde est : ";
     this->solde->afficher();
     cout << "titulaire " << endl;
     this->titulaire->Afficher();

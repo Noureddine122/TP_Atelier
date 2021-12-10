@@ -21,7 +21,7 @@ void Banque::Client::add_Compte(Compte*A)
 
 void Banque::Client::Afficher() const
 {
-    cout << "nom :" << this->nom << "\n" << "prenom:" << this->prenom << "\n" << "Adresse:" << this->adresse << endl;
+    cout << "Prenom:" << this->nom << "\n" << "Nom:" << this->prenom << "\n" << "Adresse:" << this->adresse << endl;
 }
 
 Banque::Client::~Client()
