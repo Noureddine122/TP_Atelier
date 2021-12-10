@@ -5,13 +5,12 @@
 #include "Client.h"
 #include <iostream>
 #include <algorithm>
+#include <utility>
 using namespace Banque;
 using namespace std;
-Banque::Client::Client(string n, string p, string a)
+Banque::Client::Client(string n, string p, string a):nom(std::move(n)),prenom(std::move(p)),adresse(std::move(a))
 {
-    this->nom = n;
-    this->prenom = p;
-    this->adresse = a;
+
 }
 
 void Banque::Client::add_Compte(Compte*A)

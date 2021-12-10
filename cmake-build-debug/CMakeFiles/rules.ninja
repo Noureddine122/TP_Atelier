@@ -42,7 +42,7 @@ rule CXX_EXECUTABLE_LINKER__Atelier_TP_Debug
 # Rule for re-running cmake.
 
 rule RERUN_CMAKE
-  command = /snap/clion/175/bin/cmake/linux/bin/cmake --regenerate-during-build -S/home/noureddine/CLionProjects/Atelier_TP -B/home/noureddine/CLionProjects/Atelier_TP/cmake-build-debug
+  command = /home/noureddine/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/213.5744.254/bin/cmake/linux/bin/cmake --regenerate-during-build -S/home/noureddine/CLionProjects/Atelier_TP -B/home/noureddine/CLionProjects/Atelier_TP/cmake-build-debug
   description = Re-running CMake...
   generator = 1
 
@@ -51,7 +51,7 @@ rule RERUN_CMAKE
 # Rule for cleaning all built files.
 
 rule CLEAN
-  command = /snap/clion/175/bin/ninja/linux/ninja $FILE_ARG -t clean $TARGETS
+  command = /home/noureddine/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/213.5744.254/bin/ninja/linux/ninja $FILE_ARG -t clean $TARGETS
   description = Cleaning all built files...
 
 
@@ -59,6 +59,6 @@ rule CLEAN
 # Rule for printing all primary targets available.
 
 rule HELP
-  command = /snap/clion/175/bin/ninja/linux/ninja -t targets
+  command = /home/noureddine/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/213.5744.254/bin/ninja/linux/ninja -t targets
   description = All primary targets available:
 

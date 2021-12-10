@@ -43,7 +43,7 @@ Banque::Compte::Compte(const Compte& c) :numcompte(c.numcompte)
 
 bool Banque::Compte::verser(Devise* M, Compte& C)
 {
-    if (this->debiter(M) == true) {
+    if (this->debiter(M)) {
         C.crediter(M);
         return true;
     }
