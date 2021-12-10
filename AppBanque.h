@@ -10,12 +10,13 @@
 namespace Banque {
 	class AppBanque
 	{
-		vector<Client*> Clients;
+		static vector<Client*> Clients;
 		int i = 0;
 	public:
 		static void Mymain()
 		{
 			auto* Cl = new Client("User1", "user1", "address");
+            Clients.push_back(Cl);
 			CompteEpagnePayant A(Cl, new MAD(2000), new MAD(100),5);
 			int choix;
 			double Val;
