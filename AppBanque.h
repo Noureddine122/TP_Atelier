@@ -13,9 +13,9 @@ namespace Banque {
 		vector<Client*> Clients;
 		int i = 0;
 	public:
-		void Mymain()
+		static void Mymain()
 		{
-			Client* Cl = new Client("User1", "user1", "address");
+			auto* Cl = new Client("User1", "user1", "address");
 			CompteEpagnePayant A(Cl, new MAD(2000), new MAD(100),5);
 			int choix;
 			double Val;
@@ -29,7 +29,7 @@ namespace Banque {
 				cout << "4-history" << endl;
 				cout << "donner votre choix:";
 				cin >> choix;
-				cout << "------------------------------------------" << endl;
+				cout << "###################################" << endl;
 				switch (choix)
 				{
 				case 1:
@@ -52,7 +52,7 @@ namespace Banque {
 				default:
 					exit(1);
 				}
-				cout << "------------------------------------------" << endl;
+				cout << "###################################" << endl;
 			} while (true);
 		}
 	};
