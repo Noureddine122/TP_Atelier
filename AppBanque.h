@@ -17,6 +17,7 @@ namespace Banque {
 			auto* Cl = new Client("Noureddine", "Achibane", "AGADIR");
 
 			CompteEpagnePayant A(Cl, new MAD(2000), new MAD(100),5);
+
 			int choix;
 			double Val;
             do

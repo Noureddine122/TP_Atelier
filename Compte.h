@@ -31,7 +31,7 @@ namespace Banque {
         Compte(const Compte&);
         virtual void crediter(Devise* M);
         virtual bool debiter(Devise* M)=0;
-        bool verser(Devise* M, Compte& C);
+        bool verser(Devise* M, Compte &);
         void consulter()const;
         void consulter_with_history()const;
         virtual ~Compte();
