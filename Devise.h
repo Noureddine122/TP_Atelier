@@ -5,7 +5,7 @@ namespace Banque {
 	private:
 		double valeur;
 	public:
-		Devise(double val);
+		explicit Devise(double val);
 		Devise(const Devise& val);
 		Devise& operator+(const Devise& M) const;
 		Devise& operator-(const Devise& M) const;

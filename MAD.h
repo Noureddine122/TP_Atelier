@@ -5,7 +5,7 @@ namespace Banque {
     {
         const static double Ratio;
     public:
-        MAD(double Val);
+        explicit MAD(double Val);
         MAD(const MAD& Val);
         void afficher()const override;
         Devise* Clone() const override;
