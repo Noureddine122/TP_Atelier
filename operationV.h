@@ -6,7 +6,7 @@ namespace Banque {
     {
     public:
         OperationV(Devise*E,Compte*c);
-        void Print()const;
+        void Print()const override;
     private:
         static string libel;
     };

@@ -7,6 +7,6 @@ namespace Banque {
     public:
         CompteEpargne(Client*, Devise*, double);
         void calculInteret();
-        bool debiter(Devise* D);
+        bool debiter(Devise* D) override;
     };
 }

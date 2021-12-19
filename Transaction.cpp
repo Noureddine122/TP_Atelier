@@ -7,6 +7,7 @@ Banque::Transaction::Transaction(Devise* Val, Compte*c) :numT(++incr)
 	this->date = __DATE__;
 	this->heure = __TIME__;
 	this->E = c;
+
 }
 
 void Banque::Transaction::print_detail() const

@@ -5,11 +5,11 @@ namespace Banque {
     {
         const static double Ratio;
     public:
-        Dollar(double Val);
+        explicit Dollar(double Val);
         Dollar(const Dollar& Val);
         void afficher()const override;
-        Devise* Clone() const;
-        Devise* Clone_no_convert(double val) const;
-        double value() const;
+        Devise* Clone() const override;
+        Devise* Clone_no_convert(double val) const override;
+        double value() const override;
     };
 }
